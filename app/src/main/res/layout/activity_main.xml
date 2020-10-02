@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2986F6"
+
+    android:paddingStart="25dp"
+    android:paddingEnd="25dp"
+    android:paddingTop="10dp">
+
+
+
+
+   <androidx.appcompat.widget.AppCompatImageView
+       android:id="@+id/appCompatImageView"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:src="@drawable/logo"
+       tools:layout_editor_absoluteX="131dp"
+       tools:layout_editor_absoluteY="93dp"
+       />
+
+   <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="passwoed"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="login"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Forget Password"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="379dp"
+       android:layout_height="113dp"
+       tools:layout_editor_absoluteX="7dp"
+       tools:layout_editor_absoluteY="577dp">
+
+   <androidx.appcompat.widget.AppCompatImageView
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:src="@drawable/ic_facebook"
+       tools:layout_editor_absoluteX="90dp"
+       tools:layout_editor_absoluteY="587dp" />
+
+   <androidx.appcompat.widget.AppCompatImageView
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:src="@drawable/ic_google"
+       tools:layout_editor_absoluteX="217dp"
+       tools:layout_editor_absoluteY="588dp" />
+
+   <View
+       android:layout_width="100dp"
+       android:layout_height="3dp"
+       tools:layout_editor_absoluteX="34dp"
+       tools:layout_editor_absoluteY="534dp" />
+
+   <View
+       android:layout_width="100dp"
+       android:layout_height="3dp"
+       tools:layout_editor_absoluteX="242dp"
+       tools:layout_editor_absoluteY="533dp" />
+
+   <TextView
+       android:layout_width="25dp"
+       android:layout_height="25dp"
+       tools:layout_editor_absoluteX="193dp"
+       tools:layout_editor_absoluteY="522dp"
+       android:hint="or"
+       />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
